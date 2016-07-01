@@ -40,7 +40,9 @@ namespace PokerLeagueManager.Queries.Core.EventHandlers
                 stats.Winnings -= p.Winnings;
                 stats.PayIn -= p.PayIn;
                 stats.Profit -= p.Winnings - p.PayIn;
-                stats.ProfitPerGame = stats.Profit == 0 ? 0 : stats.Profit / stats.GamesPlayed;
+                stats.ProfitPerGame = stats.Profit == 0 || stats.GamesPlayed == 0
+                    ? 0 
+                    : stats.Profit / stats.GamesPlayed;
 
                 QueryDataStore.SaveChanges();
             }
