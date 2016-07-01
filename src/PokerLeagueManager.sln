@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLeagueManager.UI.Wpf.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLeagueManager.Queries.Core.Tests", "PokerLeagueManager.Queries.Core.Tests\PokerLeagueManager.Queries.Core.Tests.csproj", "{B8E18F4D-4B7C-41E2-8DD6-AD1D3862F473}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLeagueManager.UI.Wpf.PexTests", "PokerLeagueManager.UI.Wpf.PexTests\PokerLeagueManager.UI.Wpf.PexTests.csproj", "{89400B02-BAD0-4143-A1C2-EC56E8369528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +148,10 @@ Global
 		{B8E18F4D-4B7C-41E2-8DD6-AD1D3862F473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E18F4D-4B7C-41E2-8DD6-AD1D3862F473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E18F4D-4B7C-41E2-8DD6-AD1D3862F473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89400B02-BAD0-4143-A1C2-EC56E8369528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89400B02-BAD0-4143-A1C2-EC56E8369528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89400B02-BAD0-4143-A1C2-EC56E8369528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89400B02-BAD0-4143-A1C2-EC56E8369528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
